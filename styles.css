@@ -1,3 +1,31 @@
 body {
   background-color: #696969;
+  font-family: 'Figtree', sans-serif;
+}
+
+p {
+  size
+}
+
+#first-paragraph {
+  width: 510px;
+  font-size: 30px;
+}
+
+#first-paragraph::first-letter {
+  float: left;
+  text-transform: uppercase;
+  line-height: 0.7;
+  font-size: 80px;
+  margin-top: 8px;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+#first-paragraph::first-line {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#second-paragraph {
+  font-size: 30px;
 }
