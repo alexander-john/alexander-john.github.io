@@ -23,7 +23,6 @@ p {
 
 #first-paragraph::first-line {
   font-weight: bold;
-  text-transform: capitalize;
 }
 
 #second-paragraph {
