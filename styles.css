@@ -9,7 +9,7 @@ p {
 
 #first-paragraph {
   width: 510px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #first-paragraph::first-letter {
@@ -27,5 +27,5 @@ p {
 }
 
 #second-paragraph {
-  font-size: 30px;
+  font-size: 20px;
 }
