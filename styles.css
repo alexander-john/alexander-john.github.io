@@ -15,8 +15,8 @@ p {
 #first-paragraph::first-letter {
   float: left;
   text-transform: uppercase;
-  line-height: 0.7;
-  font-size: 80px;
+  line-height: 55px;
+  font-size: 82px;
   margin-top: 8px;
   font-family: 'Noto Sans Mono', monospace;
 }
