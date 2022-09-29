@@ -21,8 +21,8 @@ p {
 #first-paragraph::first-letter {
   float: left;
   text-transform: uppercase;
-  line-height: 55px;
-  font-size: 82px;
+  line-height: 60px;
+  font-size: 90px;
   margin-top: 8px;
   font-family: 'Noto Sans Mono', monospace;
 }
