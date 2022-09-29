@@ -3,6 +3,10 @@ body {
   font-family: 'Figtree', sans-serif;
 }
 
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+}
+
 p {
   size
 }
