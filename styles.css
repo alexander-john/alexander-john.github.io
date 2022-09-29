@@ -35,6 +35,17 @@ p {
   font-size: 20px;
 }
 
+#animate {
+  color: blue;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@@keyframes example {
+
+}
+
 .tab {
   margin-left: 40px;
 }
