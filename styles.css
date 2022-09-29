@@ -37,16 +37,17 @@ p {
 
 #animate {
   color: orange;
+  position: relative;
   animation-name: example;
-  animation-duration: 10s;
+  animation-duration: .5s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
 }
 
 @keyframes example {
-  0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  100% {color: green;}
+  from {bottom: 0px;}
+  to {bottom: 10px; color: blue;}
 }
 
 .tab {
