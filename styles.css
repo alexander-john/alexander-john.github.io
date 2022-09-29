@@ -36,14 +36,17 @@ p {
 }
 
 #animate {
-  color: blue;
+  color: orange;
   animation-name: example;
-  animation-duration: 2s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
-@@keyframes example {
-
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
 }
 
 .tab {
