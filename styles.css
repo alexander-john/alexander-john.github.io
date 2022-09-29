@@ -5,6 +5,8 @@ body {
 
 h1 {
   font-family: 'JetBrains Mono', monospace;
+  border-left: 10px solid red;
+  padding-left: 8px;
 }
 
 p {
