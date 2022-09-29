@@ -1,16 +1,17 @@
 body {
-  background-color: #121212;
+  background-color: #424242;
   font-family: 'Figtree', sans-serif;
+  color: #ffffff;
 }
 
 h1 {
   font-family: 'JetBrains Mono', monospace;
-  border-left: 10px solid red;
+  border-left: 10px solid #1b1b1b;
   padding-left: 8px;
 }
 
 p {
-  size
+  
 }
 
 #first-paragraph {
