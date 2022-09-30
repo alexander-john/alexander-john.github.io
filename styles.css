@@ -62,5 +62,8 @@ p {
   and (min-device-width: 320px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
-
+    #first-paragraph {
+      width: 380px;
+      font-size: 40px;
+    }
 }
