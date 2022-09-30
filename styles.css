@@ -1,16 +1,16 @@
 body {
-  background-color: #424242;
-  font-family: 'Figtree', sans-serif;
-  color: #ffffff;
 }
 
 h1 {
+  text-align: left;
+  font-size: 40px;
 }
 
 p {
   font-family: 'JetBrains Mono', monospace;
   border-left: 10px solid #1b1b1b;
   padding-left: 8px;
+  text-align: left;
 }
 
 #first-paragraph {
@@ -35,6 +35,14 @@ p {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease;
+}
+
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @keyframes example {
