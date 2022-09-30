@@ -27,10 +27,6 @@ p {
   font-family: 'Noto Sans Mono', monospace;
 }
 
-#first-paragraph::first-line {
-  font-weight: bold;
-}
-
 #animate {
   color: orange;
   position: relative;
