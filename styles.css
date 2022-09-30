@@ -31,11 +31,6 @@ p {
   font-weight: bold;
 }
 
-#second-paragraph {
-  width: 380px;
-  font-size: 20px;
-}
-
 #animate {
   color: orange;
   position: relative;
