@@ -59,10 +59,8 @@ p {
 }
 
 @media only screen
-  and (max-device-width: 1000px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (max-width: 800px) {
     #first-paragraph {
-      width: 380px;
-      font-size: 400px;
+      font-size: 30px;
     }
 }
