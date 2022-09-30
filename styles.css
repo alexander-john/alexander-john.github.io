@@ -59,11 +59,10 @@ p {
 }
 
 @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 812px)
+  and (max-device-width: 1000px)
   and (-webkit-min-device-pixel-ratio: 3) {
     #first-paragraph {
       width: 380px;
-      font-size: 40px;
+      font-size: 400px;
     }
 }
