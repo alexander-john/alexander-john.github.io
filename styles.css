@@ -34,15 +34,17 @@ h1 {
   color: orange;
   position: relative;
   animation-name: code-animation;
-  animation-duration: .5s;
+  animation-duration: .6s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease;
 }
 
 @keyframes code-animation {
-  from {bottom: 0px;}
-  to {bottom: 10px; color: blue;}
+  0% {bottom: 0px;}
+  25% {color: red;}
+  75% {color: green;}
+  100% {bottom: 10px; color: blue;}
 }
 
 @media only screen and (max-width: 800px) {
