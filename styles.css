@@ -45,8 +45,7 @@ h1 {
   to {bottom: 10px; color: blue;}
 }
 
-@media only screen
-  and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .code {
       font-size: 13px;
     }
