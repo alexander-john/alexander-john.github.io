@@ -1,41 +1,17 @@
-body {
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono&display=swap');
 
 h1 {
+  font-family: 'Bebas Neue', cursive;
   text-align: left;
-  font-size: 40px;
+  font-size: 80px;
 }
 
-p {
+.code {
   font-family: 'JetBrains Mono', monospace;
   border-left: 10px solid #1b1b1b;
   padding-left: 8px;
   text-align: left;
   font-size: 20px;
-}
-
-#first-paragraph {
-  width: 380px;
-  font-size: 20px;
-}
-
-#first-paragraph::first-letter {
-  float: left;
-  text-transform: uppercase;
-  line-height: 60px;
-  font-size: 90px;
-  margin-top: 8px;
-  font-family: 'Noto Sans Mono', monospace;
-}
-
-#animate {
-  color: orange;
-  position: relative;
-  animation-name: example;
-  animation-duration: .5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease;
 }
 
 .flex-container {
@@ -46,15 +22,6 @@ p {
   flex-direction: column;
 }
 
-@keyframes example {
-  from {bottom: 0px;}
-  to {bottom: 10px; color: blue;}
-}
-
-.tab {
-  margin-left: 40px;
-}
-
 .color-purple {
   color: #AE44DA;
 }
@@ -63,21 +30,28 @@ p {
   color: #44DAD8;
 }
 
+.animate {
+  color: orange;
+  position: relative;
+  animation-name: code-animation;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+
+@keyframes code-animation {
+  from {bottom: 0px;}
+  to {bottom: 10px; color: blue;}
+}
+
 @media only screen
   and (max-width: 800px) {
-    p {
+    .code {
       font-size: 13px;
     }
 
-    #first-paragraph {
-      width: auto;
-    }
-
-    #first-paragraph::first-letter {
-      float: left;
-      text-transform: uppercase;
-      line-height: 15vw;
-      margin-top: 8px;
-      font-family: 'Noto Sans Mono', monospace;
+    h1 {
+      font-size: 58px;
     }
 }
