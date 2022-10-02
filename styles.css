@@ -1,9 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono&display=swap');
 
+html,
+body {
+	height: 100%;
+}
+
 h1 {
   font-family: 'Bebas Neue', cursive;
   text-align: left;
   font-size: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .code {
@@ -12,14 +36,16 @@ h1 {
   padding-left: 8px;
   text-align: left;
   font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .flex-container {
   display: flex;
-  height: 300px;
+  height: 100%;
+  min-height: 100%;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .color-purple {
@@ -47,12 +73,16 @@ h1 {
   100% {bottom: 10px; color: blue;}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
     .code {
       font-size: 13px;
     }
 
     h1 {
       font-size: 50px;
+    }
+
+    ul {
+      width: 260px;
     }
 }
