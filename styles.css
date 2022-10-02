@@ -30,6 +30,21 @@ li {
   margin-right: 8px;
 }
 
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+.red-hover:hover {
+  color: red;
+}
+
 .code {
   font-family: 'JetBrains Mono', monospace;
   border-left: 10px solid #1b1b1b;
@@ -76,6 +91,7 @@ li {
 @media only screen and (max-width: 500px) {
     .code {
       font-size: 13px;
+      border-left: 6px solid #1b1b1b;
     }
 
     h1 {
